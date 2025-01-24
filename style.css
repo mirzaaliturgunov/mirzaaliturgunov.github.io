@@ -113,6 +113,10 @@ section{
     border-radius: 50%;
 }
 
+.about img:active{
+    transform: scale(0.99);
+}
+
 .info-box{
     display: flex;
     flex-direction: column;
@@ -161,6 +165,10 @@ section{
 .btn:hover{
     background-color: black;
     color: white;
+}
+
+.btn:active{
+    transform: scale(0.9);
 }
 
 .socials{
@@ -438,7 +446,17 @@ footer ul li a{
         font-size: 1.5rem;
     }
     .about-container img{
-        width: 80vw;
+        width: 10vw;
+        margin: -20px -20px;
+    }
+    .btn{
+        padding: 0.35rem 1rem;
+    }
+    #follow-btn{
+        padding: 0.1rem 0.8rem;
+    }
+    .socials i{
+        font-size: 1.5rem;
     }
     .input-box input{
         padding: 0.5rem 3rem;
